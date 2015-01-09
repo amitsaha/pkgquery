@@ -1,7 +1,22 @@
 ##Query for a package/binary across Linux distros
 
 * Needs docker up and running on the host
+
+  On Fedora 20/21:
+
+  ```
+  # yum install docker-io
+  # systemctl enable docker
+  # systemctl start docker
+  ```
+
 * Uses docker-py
+
+  On Fedora 20/21:
+
+  ```
+  # yum install python-docker-py
+  ```
 
 Examples:
 
