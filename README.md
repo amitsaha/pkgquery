@@ -1,6 +1,7 @@
 ##Query for a package/binary across Linux distros
 
-**Needs docker up and running on the host**
+* Needs docker up and running on the host
+* Uses docker-py
 
 Examples:
 
