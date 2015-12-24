@@ -2,26 +2,26 @@
 
 * Needs docker up and running on the host
 
-  On Fedora 20/21:
+  On Fedora 23:
 
   ```
-  # yum install docker-io
+  # dnf install docker
   # systemctl enable docker
   # systemctl start docker
   ```
 
 * Uses docker-py
 
-  On Fedora 20/21:
+  On Fedora 23:
 
   ```
-  # yum install python-docker-py
+  # dnf install python-docker-py
   ```
 
 Examples:
 
 ```
-$ python findpkg.py fedora:21 --package flask
+$ python findpkg.py fedora:23 --package flask
 
 ============================== N/S matched: flask ==============================
 python-flask-assets.noarch : Asset management for flask

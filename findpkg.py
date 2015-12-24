@@ -22,8 +22,8 @@ from docker import Client
 def search(distro, package=None, binary=None):
 
     docker = Client(base_url='unix://var/run/docker.sock')
-    search_pkgcmd = {'fedora':'yum search',
-                     'centos':'yum search',
+    search_pkgcmd = {'fedora':'dnf search',
+                     'centos':'dnf search',
                      'ubuntu':'apt-cache search',
                      'debian':'apt-cache search',
                  }
